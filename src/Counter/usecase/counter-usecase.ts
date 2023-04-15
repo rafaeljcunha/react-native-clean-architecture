@@ -27,6 +27,7 @@ export class CounterUsecase implements CounterDomain {
 
   reset(): CounterModel {
     this.counter.count = 0;
+    this.maxValue = 10;
     return this.counter;
   }
 }
