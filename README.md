@@ -43,21 +43,13 @@ Para compilar o aplicativo, podemos usar o Android Studio para dispositivos Andr
 
 ## Instalação / Execução
 
-Para que o projeto execute/compile normalmente, devemos executar no terminal o seguinte comando na raiz do projeto, tanto para Android, quanto iOS:
+É bem simples! Basta fazer um clone do repositório na dispositivo e na raiz do projeto, executar o seguinte comando:
+```yarn install``` ou ```npm install```
 
-```
-yarn install
-```
+Após terminar de instalar todas as dependências do projeto, podemos executar ainda na raiz do projeto o seguite comando:
+```yarn start```
 
-Ao finalizar a instalação, será necessário executar o comando:
-
-```
-yarn start
-```
-
-Então aparecerá no seu terminal algumas opcões para rodar o projeto, você poderá apertar a tecla `a` para abrir o projeto no Android ou a tecla `i` para abrir o projeto no iOS.
-
-Além disso, você poderá baixar o Expo Go na loja de aplicativos do seu dispositivo físico para ler o QR Code que também aparece no seu terminal e abrir o projeto no seu dispositivo físico.
+Pronto! Agora é só emular o projeto onde preferir, tanto no Android Studio quanto no XCode
 
 ---
 
