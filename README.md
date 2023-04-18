@@ -14,7 +14,7 @@ Antes de iniciar, se assegure que possui os requisitos abaixo:
 
 - Node
 - Yarn
-- expo-cli
+- react-native-community/cli
 - Android Studio
 - Xcode (MacOS)
 
@@ -25,15 +25,14 @@ Antes de iniciar, se assegure que possui os requisitos abaixo:
 - Criar a estrutura padrão do Clean Architecture
 - Criação de testes unitários para todos os arquivos da arquitetura
 - Separação de responsabilidades da aplicação
+- Criação e gerenciamento de um contador utilizando clean architecture
 
 ### Tecnologias, ferramentas e bibliotecas utilizadas
 
 - React
 - React Native
 - TypeScript
-- Expo
 - Jest
-- Jest-expo
 - Testing-library/react-hooks
 - Testing-library/react-native
 - React Navigation
